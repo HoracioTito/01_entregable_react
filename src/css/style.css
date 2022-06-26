@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans", "Droid Sans","Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.card{
+    padding: 30px;
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 3px darkslategrey;
+}
+
+.text-phrase{
+    padding: 29px 5px;
+    font-size: 1.4rem;
+    font-style: italic;
+    background-color:#404040;
+    border-radius: 15px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+}
+
+.image{
+    width: 100px;
+    margin: 15px 0 0 0;
+    border-radius: 15px;
+}
+
+.author{
+    padding: 15px 10px 25px 0;
+    border-left: 0 130px 0 0;
+    /* text-align: end;*/
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #858585;
+}
+
+.btn-left{
+    text-align: end;
+}
+
+button{
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: white; */
+    border-style: none;
+    margin-right: 10px;
+}
+
+button:hover{
+    cursor: grab;
+}
